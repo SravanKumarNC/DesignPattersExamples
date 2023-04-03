@@ -1,5 +1,7 @@
 package StrategyDesignPattern;
 
+import StrategyDesignPattern.strategy.DriveStrategy;
+
 public class Vehical {
 
     DriveStrategy driveObject;

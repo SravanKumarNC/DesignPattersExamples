@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7e1a03-b8dc-4f35-bfaa-cc5fe683142f" name="Changes" comment="Initial version">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Observable/StocksObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Observable/iphoneObservableImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Observer/EmailAlertObserverImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Observer/MobileAlertObserverImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Observer/NotificationAlertObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/DriveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/strategy/DriveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/GoodsVehical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/GoodsVehical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/NormalDriveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/strategy/NormalDriveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/OffRoadDriveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/strategy/OffRoadDriveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/OffRoadVehical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/OffRoadVehical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/SportsDriveStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/SportsVehical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/SportsVehical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/Vehical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Vehical.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="module-info" />
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,7 +41,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2NpBu5KEiGTQCikcWP1FteCASOP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,14 +51,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java/DesignPatterns&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/java/DesignPatterns"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.Store">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DesignPatternsExamples" />
@@ -50,8 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObserverPattern.Store" />
+      <module name="DesignPatternsExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObserverPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Store" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -79,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680356286105</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial version">
+      <created>1680522320479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680522320479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

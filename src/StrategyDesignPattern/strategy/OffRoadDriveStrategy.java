@@ -1,4 +1,4 @@
-package StrategyDesignPattern;
+package StrategyDesignPattern.strategy;
 
 public class OffRoadDriveStrategy implements DriveStrategy{
 
